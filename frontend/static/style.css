@@ -1,0 +1,65 @@
+/* Colorful animated gradient background */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(270deg, #ff6ec4, #7873f5, #4facfe, #43e97b);
+    background-size: 800% 800%;
+    animation: gradientBG 15s ease infinite;
+    color: white;
+    text-align: center;
+}
+
+/* Smooth gradient animation */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Header styles */
+header {
+    padding: 2rem;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+/* Card styles */
+.card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+/* Glowing button */
+.glow-btn {
+    background: linear-gradient(90deg, #ff758c, #ff7eb3);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 118, 177, 0.7);
+}
+
+.glow-btn:hover {
+    box-shadow: 0 0 20px rgba(255, 118, 177, 1);
+    transform: scale(1.05);
+}
+
+/* Footer styles */
+footer {
+    padding: 1rem;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}

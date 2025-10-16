@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nativore - Food Trends</title>
+</head>
+<body>
+    <h1>Welcome to Nativore</h1>
+    <form method="POST" action="/analyze">
+        <label>Enter Location:</label><br>
+        <input type="text" name="location"><br><br>
+        
+        <label>Select Business Type:</label><br>
+        <select name="type">
+            <option>Restaurant</option>
+            <option>Cafe</option>
+            <option>Bakery</option>
+        </select><br><br>
+
+        <label>Enter Budget (₹):</label><br>
+        <input type="number" name="budget"><br><br>
+
+        <input type="submit" value="Analyze">
+    </form>
+</body>
+</html>
