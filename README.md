@@ -8,8 +8,27 @@
 [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=flat&logo=react)](https://reactjs.org/)
 [![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=flat&logo=python)](https://www.python.org/)
 [![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0-red?style=flat)](https://www.sqlalchemy.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4.1-38B2AC?style=flat&logo=tailwind-css)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-Educational-green)](LICENSE)
+
+[🚀 Quick Start](#-quick-start) • [📚 Documentation](#-api-endpoints) • [🎯 Features](#-features) • [💻 Demo](#-demo-credentials)
 
 </div>
+
+---
+
+## 📑 Table of Contents
+
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#️-tech-stack)
+- [Quick Start](#-quick-start)
+- [Project Structure](#-project-structure)
+- [API Endpoints](#-api-endpoints)
+- [Configuration](#-configuration)
+- [Troubleshooting](#-troubleshooting)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ## 📋 Overview
 
@@ -21,6 +40,16 @@ Nativore is a **production-grade web application** that helps food investors and
 - Tiruppur
 - Madurai
 - Thoothukudi
+
+### 📸 Screenshots
+
+<div align="center">
+
+![Nativore Dashboard](https://via.placeholder.com/800x400/f58700/ffffff?text=Nativore+Dashboard)
+
+*Interactive Analytics Dashboard with City-based Food Trends*
+
+</div>
 
 ## ✨ Features
 
@@ -65,8 +94,8 @@ Nativore is a **production-grade web application** that helps food investors and
 
 ### Frontend
 - **Framework**: React 18.3.1
-- **Build Tool**: Vite 6.0.11
-- **Styling**: Tailwind CSS 3.4.17
+- **Build Tool**: Vite 5.4.20
+- **Styling**: Tailwind CSS 3.4.1
 - **3D Graphics**: React Three Fiber 8.18.11
 - **Charts**: Recharts 2.15.0
 - **Animations**: Framer Motion 11.15.0
@@ -84,8 +113,8 @@ Nativore is a **production-grade web application** that helps food investors and
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
-cd nativore
+git clone https://github.com/Hariprasath1x/Nativore.git
+cd Nativore
 ```
 
 2. **Backend Setup**
@@ -178,8 +207,8 @@ nativore/
 │   ├── public/
 │   │   └── index.html        # HTML template
 │   └── src/
-│       ├── App.js            # Main React component
-│       ├── index.js          # Entry point
+│       ├── App.jsx           # Main React component
+│       ├── index.jsx         # Entry point
 │       ├── api/
 │       │   └── api.js        # Axios instance
 │       ├── components/
@@ -188,10 +217,10 @@ nativore/
 │       │   ├── Card.jsx
 │       │   └── Chart3D.jsx   # 3D visualizations
 │       └── pages/
-│           ├── Login.js
-│           ├── Signup.js
-│           ├── Dashboard.js
-│           └── Insights.js
+│           ├── Login.jsx
+│           ├── Signup.jsx
+│           ├── Dashboard.jsx
+│           └── Insights.jsx
 ├── database/
 │   └── schema.sql            # PostgreSQL schema
 ├── docker-compose.yml        # Docker deployment
@@ -270,72 +299,6 @@ The platform includes:
 ## 🔧 Configuration
 
 ### Backend (.env)
-``
-
-Database: SQLite (initial), PostgreSQL (future upgrade)
-
-Data Analysis: Pandas, NumPy, Matplotlib
-
-Deployment: Render or Heroku or Streamlit
-
-External Data: Zomato or Yelp APIs (optional), or Kaggle datasets
-
-
-
-## Project Structure
-
-
-
-nativore/
-
-├── frontend/
-
-│ ├── templates/ (HTML templates for UI)
-
-│ └── static/ (CSS, JS, images)
-
-├── backend/
-
-│ └── app.py (Python backend app)
-
-├── data/
-
-│ └── food_trends_dummy.csv (Initial dummy data)
-
-├── reports/ (Downloadable or exportable insights)
-
-├── README.md (This file)
-
-└── Project_Overview.md (Feature and flow documentation)
-
-
-
-## Installation and Setup
-
-
-
-1. Clone the repository or download the folder.
-
-2. Open terminal and navigate into the nativore directory.
-
-3. Set up a virtual environment:
-
-python3 -m venv venv
-
-source venv/bin/activate
-
-4. Install dependencies:
-
-pip install flask pandas matplotlib
-
-5. Run the app:
-
-cd backend
-
-python app.py
-
-6. Open your browser and go to: http://127.0.0.1:5000/
-
 ```env
 DATABASE_URL=sqlite:///./nativore.db
 JWT_SECRET=your-super-secret-jwt-key-change-in-production
@@ -433,8 +396,8 @@ This project is for educational and portfolio use. All data used is ethically so
 ## 📞 Support
 
 For issues, questions, or suggestions:
-- Open an issue on GitHub
-- Email: [your-email@example.com]
+- Open an issue on GitHub: [github.com/Hariprasath1x/Nativore/issues](https://github.com/Hariprasath1x/Nativore/issues)
+- Contact: hariprasathc@example.com
 
 ---
 
@@ -445,3 +408,4 @@ For issues, questions, or suggestions:
 Built with ❤️ for the Tamil Nadu food industry
 
 </div>
+
